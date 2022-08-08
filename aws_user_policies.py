@@ -8,7 +8,7 @@ import boto3
 
 
 def main(fileName=None):
-    session = boto3.Session(profile_name="der")
+    session = boto3.Session()
     iam = session.client(
         "iam",
     )
