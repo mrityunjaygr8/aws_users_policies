@@ -4,7 +4,7 @@ let
     url = "https://github.com/DavHau/mach-nix";
     ref = "refs/tags/3.5.0";
   }) {
-      python = "python310Full";
+      python = "python310";
       pypiDataRev =  "fa942bb2bc65ab8a24730c2dacfe60ab03ddf960";
       pypiDataSha256 = "sha256-hK5hzeEkwRk6mpNQFbLjwByp8C7EiwGWxpW13V5XP0Q=";
       pkgs = import <nixpkgs> {};
